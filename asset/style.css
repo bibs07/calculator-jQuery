@@ -1,0 +1,50 @@
+body{
+    background-color: antiquewhite;
+}
+
+.custom-container{
+    border: 1px solid rgb(109, 99, 99);
+    background-color: #224662;
+    border-radius: 1rem;
+}
+
+#displayTop{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+#calculation{
+    background-image: linear-gradient( #224662, white );
+    padding: 2rem;
+    border-radius: 6px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+button{
+    width: -webkit-fill-available;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .container {
+         max-width: 680px !important;
+        
+        }
+  }
+@media only screen and (min-width: 992px) {
+    .container {
+         max-width: 680px !important;
+        
+        }
+  }
+@media only screen and (min-width: 768px) {
+    .container {
+         max-width: 680px !important;
+        
+        }
+  }
+  
